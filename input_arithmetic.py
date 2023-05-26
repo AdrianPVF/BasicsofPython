@@ -27,7 +27,7 @@ while True:
         print("Score is valid")
     else:
         print("Error! Score is invalid")
-        break
+        continue
 
     num2 = int(input("Enter second score: "))
 
@@ -35,7 +35,7 @@ while True:
         print("Score is valid")
     else:
         print("Error! Score is invalid")
-        break
+        continue
 
     print("Total:", AddNum(num1, num2))
 
